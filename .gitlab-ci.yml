@@ -1,0 +1,5 @@
+stages: [test]
+baseline:
+  stage: test
+  script:
+    - echo "Clean baseline fixture"
